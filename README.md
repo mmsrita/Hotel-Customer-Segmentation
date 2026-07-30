@@ -17,33 +17,19 @@ Following the **CRISP-DM** methodology, this project leverages machine learning 
 ## 🧩 Customer Segments & Profiles
 
 ### 🇪🇺 European Customers Model
-Using the **Elbow Method** and **Silhouette Score**, 3 optimal clusters were identified:
 
-* 🛎️ **Cluster 0 – Demanding, Comfort-Oriented:** High lead times (~95 days), higher spending, frequent special requests, and high demand for luxury (>50%) and quiet environments.
-* 🎒 **Cluster 1 – Practical & Low-Demand:** Budget-conscious, low special requests, neutral on luxury and quietness. Focuses on cost-effectiveness.
-* 💎 **Cluster 2 – Long-Term Loyalists:** Longest customer loyalty period, moderate requests, 100% preference for luxury, average spending.
-
-### 🌎 Non-European Customers Model
-Similarly validated using Silhouette Analysis, yielding 3 distinct international segments:
-
-* 🎒 **Cluster 0 – Practical & Short-Notice:** Shortest lead times (~75 days), lower spending, minimal requests. Values speed and economy.
-* ⏳ **Cluster 1 – Early Planners & Luxury Seekers:** Longest lead time (~84 days), 100% preference for luxury services, moderate requests, slightly lower spending.
-* 💎 **Cluster 2 – High-Spenders & Tranquility Seekers:** Highest revenue per stay and highest number of special requests. Strong preference for quiet environments and luxury.
+| Cluster | Profile Name | Lead Time | Spending | Special Requests | Key Preferences |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Cluster 0** | 🛎️ Demanding, Comfort-Oriented | **High (~95 days)** | **Higher** | **Frequent** | **Luxury (>50%)** and **quiet environments** |
+| **Cluster 1** | 🎒 Practical & Low-Demand | — | **Budget-conscious** | Low | **Cost-effectiveness** (neutral on luxury/quietness) |
+| **Cluster 2** | 💎 Long-Term Loyalists | — | Moderate | Moderate | **100% luxury preference** & **longest loyalty** |
 
 ---
 
-## 💡 Strategic Business Recommendations
+### 🌎 Non-European Customers Model
 
-### 🇪🇺 European Market Strategies
-| Segment | Recommended Action |
-| :--- | :--- |
-| **Cluster 0 (Demanding & Comfort-Oriented)** | Target with premium room upgrades, quiet-zone guarantees, personalized stay packages, and high-margin add-ons (e.g., spa, private dining). |
-| **Cluster 1 (Practical & Low-Demand)** | Focus on conversion via competitive pricing, functional package deals, and streamlined digital check-in processes. |
-| **Cluster 2 (Long-Term Loyalists)** | Enroll in exclusive VIP loyalty tiers, offer early-bird perks, and maintain retention through personalized anniversary or return-stay offers. |
-
-### 🌎 Non-European Market Strategies
-| Segment | Recommended Action |
-| :--- | :--- |
-| **Cluster 0 (Practical & Short-Notice)** | Capture last-minute bookings via targeted OTA ads, mobile booking discounts, and fast-track booking options. |
-| **Cluster 1 (Early Planners & Luxury Seekers)** | Promote long-lead booking packages with included luxury amenities, airport transfers, and premium service guarantees. |
-| **Cluster 2 (High-Spenders & Tranquility Seekers)** | Offer bespoke luxury suites, tailored concierge services, and noise-isolated rooms to maximize revenue per stay. |
+| Cluster | Profile Name | Lead Time | Spending | Special Requests | Key Preferences |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Cluster 0** | 🎒 Practical & Short-Notice | **Shortest (~75 days)** | Lower | Minimal | **Speed and economy** |
+| **Cluster 1** | ⏳ Early Planners & Luxury Seekers | **Longest (~84 days)** | Slightly lower | Moderate | **100% luxury preference** |
+| **Cluster 2** | 💎 High-Spenders & Tranquility Seekers | — | **Highest (Revenue/stay)** | **Highest** | **Quiet environments** and luxury |
